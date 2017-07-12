@@ -1,12 +1,12 @@
-﻿using Pilipa.Core.Domain;
-using Pilipa.Core.GlobalConfig;
-using Pilipa.Core.Logger;
-using Pilipa.Core.NoSql;
+﻿using LindAgile.Core.Domain;
+using LindAgile.Core.GlobalConfig;
+using LindAgile.Core.Logger;
+using LindAgile.Core.NoSql;
 using System;
 using System.Threading;
 using Microsoft.AspNetCore.Http;
 
-namespace Pilipa.Core.Adapter
+namespace LindAgile.Core.Adapter
 {
     /// <summary>
     /// 日志表

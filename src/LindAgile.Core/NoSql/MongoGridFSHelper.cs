@@ -5,7 +5,7 @@ using System.Linq;
 using MongoDB.Driver.GridFS;
 using System.IO;
 
-namespace Pilipa.Core.NoSql
+namespace LindAgile.Core.NoSql
 {
     /// <summary>
     /// mongodb文件存储

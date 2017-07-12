@@ -12,7 +12,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Pilipa.Core.Specification
+namespace LindAgile.Core.Specification
 {
     /// <summary>
     /// Helper for rebinder parameters without use Invoke method in expressions 

@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.NoSql
+namespace LindAgile.Core.NoSql
 {
     /// <summary>
     /// Mongodb驱动

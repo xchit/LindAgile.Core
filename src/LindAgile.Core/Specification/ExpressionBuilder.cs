@@ -13,7 +13,7 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Pilipa.Core.Specification
+namespace LindAgile.Core.Specification
 {
     /// <summary>
     /// Extension methods for add And and Or with parameters rebinder

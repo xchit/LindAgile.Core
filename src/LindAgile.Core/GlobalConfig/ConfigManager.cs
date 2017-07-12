@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using Pilipa.Core.GlobalConfig.Models;
+using LindAgile.Core.GlobalConfig.Models;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace Pilipa.Core.GlobalConfig
+namespace LindAgile.Core.GlobalConfig
 {
     /// <summary>
     /// 框架级配置信息初始化，默认使用xml进行存储

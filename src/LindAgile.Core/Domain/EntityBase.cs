@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Serialization;
 
-namespace Pilipa.Core.Domain
+namespace LindAgile.Core.Domain
 {
     /// <summary>
     /// 领域模型，实体模型基类，它可能有多种持久化方式，如DB,File,Redis,Mongodb,XML等

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.IRepositories
+namespace LindAgile.Core.IRepositories
 {
     /// <summary>
     /// 基本仓储操作接口

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Exceptions
+namespace LindAgile.Core.Exceptions
 {
     /// <summary>
     /// 仓储持久化失败引发的异常

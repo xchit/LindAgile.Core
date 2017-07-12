@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 总线对象[实体接口]

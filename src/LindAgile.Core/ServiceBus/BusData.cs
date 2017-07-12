@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 总线对象[实体核心]

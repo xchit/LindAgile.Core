@@ -1,5 +1,5 @@
-﻿using Pilipa.Core.GlobalConfig;
-using Pilipa.Core.Logger;
+﻿using LindAgile.Core.GlobalConfig;
+using LindAgile.Core.Logger;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.IRepositories
+namespace LindAgile.Core.IRepositories
 {
     /// <summary>
     /// Mongodb实现数据持久化

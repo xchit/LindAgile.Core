@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 代理事件处理器[伪装处理程序,灵活加载事件]

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Logger
+namespace LindAgile.Core.Logger
 {
     /// <summary>
     /// 以普通的文字流的方式写日志

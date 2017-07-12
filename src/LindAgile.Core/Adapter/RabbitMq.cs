@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Pilipa.Core.MessageQueue;
+using LindAgile.Core.MessageQueue;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Adapter
+namespace LindAgile.Core.Adapter
 {
     /// <summary>
     /// RabbitMq发布者

@@ -1,11 +1,11 @@
 ﻿using Autofac;
-using Pilipa.Core.Logger;
-using Pilipa.Core.Utils;
+using LindAgile.Core.Logger;
+using LindAgile.Core.Utils;
 using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Pilipa.Core.LindPlugins
+namespace LindAgile.Core.LindPlugins
 {
     /// <summary>
     /// 可插拔组件的管理者

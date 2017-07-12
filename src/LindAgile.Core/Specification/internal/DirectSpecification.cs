@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace Pilipa.Core.Specification
+namespace LindAgile.Core.Specification
 {
     /// <summary>
     /// 构建一个表达示树

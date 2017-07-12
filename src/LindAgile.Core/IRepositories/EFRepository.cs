@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Pilipa.Core.Logger;
+using LindAgile.Core.Logger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pilipa.Core.IRepositories
+namespace LindAgile.Core.IRepositories
 {
     /// <summary>
     /// 使用EF进行持久化

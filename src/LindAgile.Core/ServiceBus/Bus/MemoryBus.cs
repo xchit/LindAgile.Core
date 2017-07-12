@@ -1,4 +1,4 @@
-﻿using Pilipa.Core.Utils;
+﻿using LindAgile.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     internal class MemoryBus : IBus
     {

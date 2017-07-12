@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.LindPlugins
+namespace LindAgile.Core.LindPlugins
 {
     /// <summary>
     /// 可插拔组件接口，需要动态生产的组件，需要继承它

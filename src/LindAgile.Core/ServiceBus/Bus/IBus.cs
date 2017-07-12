@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 事件总线，生产者接口

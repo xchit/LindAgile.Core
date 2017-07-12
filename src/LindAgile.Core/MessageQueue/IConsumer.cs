@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.MessageQueue
+namespace LindAgile.Core.MessageQueue
 {
     /// <summary>
     /// 消费者

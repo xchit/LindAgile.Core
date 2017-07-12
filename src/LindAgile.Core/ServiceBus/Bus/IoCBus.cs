@@ -1,19 +1,15 @@
 ﻿using Newtonsoft.Json;
-using Pilipa.Core.GlobalConfig;
-using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Runtime.Loader;
-using Pilipa.Core.Utils;
+using LindAgile.Core.Utils;
 using System.Reflection;
-using Pilipa.Core.Modules;
-using Pilipa.Core.Adapter;
-using Pilipa.Core.NoSql;
+using LindAgile.Core.Modules;
+using LindAgile.Core.Adapter;
+using LindAgile.Core.NoSql;
+using LindAgile.Core.Caching;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 通过依赖注入的方式实现事件总线
@@ -23,7 +19,11 @@ namespace Pilipa.Core.ServiceBus
         /// <summary>
         /// redis key
         /// </summary>
-        const string REDISESBKEY = "IoCESBBus";
+        const string ESBKEY = "IoCESBBus";
+        /// <summary>
+        /// cache事件字典
+        /// </summary>
+        ICache cache = ModuleManager.Resolve<ICache>();
         /// <summary>
         /// 模式锁
         /// </summary>
@@ -58,14 +58,17 @@ namespace Pilipa.Core.ServiceBus
                 newEvent.Add(key);
                 keyDic.Add(eventKey, newEvent);
             }
-     
+
             container.Register(typeof(IBusHandler<TEvent>), eventHandler.GetType(), key);
             //redis存储事件与处理程序的映射关系
             foreach (var hash in keyDic)
+            {
                 RedisManager.Instance.GetDatabase().HashSet(
-                    REDISESBKEY,
+                    ESBKEY,
                     hash.Key.ToString(),
                     JsonConvert.SerializeObject(hash.Value));
+            }
+
 
         }
         /// <summary>
@@ -124,7 +127,7 @@ namespace Pilipa.Core.ServiceBus
         public void Publish<TEvent>(TEvent @event)
            where TEvent : class, IBusData
         {
-            var keyArr = JsonConvert.DeserializeObject<List<string>>(RedisManager.Instance.GetDatabase().HashGet(REDISESBKEY, typeof(TEvent).Name));
+            var keyArr = JsonConvert.DeserializeObject<List<string>>(RedisManager.Instance.GetDatabase().HashGet(ESBKEY, typeof(TEvent).Name));
             foreach (var key in keyArr)
             {
                 var item = container.ResolveNamed<IBusHandler<TEvent>>(key);
@@ -191,7 +194,7 @@ namespace Pilipa.Core.ServiceBus
                 //redis存储事件与处理程序的映射关系
                 foreach (var hash in keyDic)
                     RedisManager.Instance.GetDatabase().HashSet(
-                        REDISESBKEY,
+                        ESBKEY,
                         hash.Key.ToString(),
                         JsonConvert.SerializeObject(hash.Value));
 

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using StackExchange.Redis;
-using Pilipa.Core.Logger;
+using LindAgile.Core.Logger;
 
-namespace Pilipa.Core.NoSql
+namespace LindAgile.Core.NoSql
 {
     /// <summary>
     /// StackExchange.Redis管理者

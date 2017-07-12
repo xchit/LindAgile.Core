@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Pilipa.Core.GlobalConfig.Models
+namespace LindAgile.Core.GlobalConfig.Models
 {
     /// <summary>
     /// 配置信息实体

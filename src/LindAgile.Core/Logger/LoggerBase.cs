@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Logger
+namespace LindAgile.Core.Logger
 {
     /// <summary>
     /// 日志级别

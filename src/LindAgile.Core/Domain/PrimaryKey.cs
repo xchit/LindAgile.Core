@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 
-namespace Pilipa.Core.Domain
+namespace LindAgile.Core.Domain
 {
     /// <summary>Represents an ObjectId
     /// </summary>

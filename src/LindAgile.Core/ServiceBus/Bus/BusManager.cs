@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Xml.Linq;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     /// <summary>
     /// 事件总线[事件功能核心代码]

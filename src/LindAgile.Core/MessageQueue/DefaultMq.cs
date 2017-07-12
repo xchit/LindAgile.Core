@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.MessageQueue
+namespace LindAgile.Core.MessageQueue
 {
     /// <summary>
     /// 默认的消息队列

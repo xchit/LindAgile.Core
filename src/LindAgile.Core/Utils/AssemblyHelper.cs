@@ -1,4 +1,4 @@
-﻿using Pilipa.Core.Logger;
+﻿using LindAgile.Core.Logger;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Runtime.Loader;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Utils
+namespace LindAgile.Core.Utils
 {
     /// <summary>
     /// 程序集相关帮助类
@@ -18,7 +18,7 @@ namespace Pilipa.Core.Utils
         /// <summary>
         /// 黑名单
         /// </summary>
-        static string[] BlackList = { "Pilipa.Core", "System", "FluentValidation", "StackExchange", "Microsoft", "Autofac", "Quartz", "EntityFramework", "MySql", "MongoDB", "log4net", "AutoMapper", "NPOI", "CrystalQuartz", "Gma.QrCodeNet", "HtmlAgilityPack", "Common.Logging", "NetPay", "ServiceStack", "Newtonsoft.Json", "LitJson", "Robots", "CsQuery" };
+        static string[] BlackList = { "LindAgile.Core", "System", "FluentValidation", "StackExchange", "Microsoft", "Autofac", "Quartz", "EntityFramework", "MySql", "MongoDB", "log4net", "AutoMapper", "NPOI", "CrystalQuartz", "Gma.QrCodeNet", "HtmlAgilityPack", "Common.Logging", "NetPay", "ServiceStack", "Newtonsoft.Json", "LitJson", "Robots", "CsQuery" };
         static object lockObj = new object();
         static List<Type> modelList = new List<Type>();
         static AssemblyHelper() { Init(); }

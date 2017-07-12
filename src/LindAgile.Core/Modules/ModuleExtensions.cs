@@ -1,15 +1,16 @@
-﻿using Pilipa.Core.Adapter;
-using Pilipa.Core.IRepositories;
-using Pilipa.Core.Logger;
-using Pilipa.Core.MessageQueue;
-using Pilipa.Core.ServiceBus;
+﻿using LindAgile.Core.Caching;
+using LindAgile.Core.Adapter;
+using LindAgile.Core.IRepositories;
+using LindAgile.Core.Logger;
+using LindAgile.Core.MessageQueue;
+using LindAgile.Core.ServiceBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Modules
+namespace LindAgile.Core.Modules
 {
     /// <summary>
     /// function:module design
@@ -171,5 +172,28 @@ namespace Pilipa.Core.Modules
         }
         #endregion
 
+        #region 缓存组件
+        /// <summary>
+        /// 使用内存作为缓存
+        /// </summary>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
+        public static ModuleManager UseDefaultCache(this ModuleManager configuration)
+        {
+            configuration.RegisterModule<ICache, RuntimeCache>();
+            return configuration;
+        }
+
+        /// <summary>
+        /// 使用redis作为缓存
+        /// </summary>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
+        public static ModuleManager UseRedisCache(this ModuleManager configuration)
+        {
+            configuration.RegisterModule<ICache, RedisCache>();
+            return configuration;
+        }
+        #endregion
     }
 }

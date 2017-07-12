@@ -155,6 +155,9 @@ C:\github\LindAgile.Core\src\LindAgile.Core\Adapter\AutofacContainer.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\Adapter\MongoLogger.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\Adapter\RabbitMq.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\AutoMapper\AutoMapExtensions.cs
+C:\github\LindAgile.Core\src\LindAgile.Core\Caching\ICache.cs
+C:\github\LindAgile.Core\src\LindAgile.Core\Caching\RedisCache.cs
+C:\github\LindAgile.Core\src\LindAgile.Core\Caching\RuntimeCache.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\Domain\Entity.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\Domain\EntityBase.cs
 C:\github\LindAgile.Core\src\LindAgile.Core\Domain\EntityString.cs

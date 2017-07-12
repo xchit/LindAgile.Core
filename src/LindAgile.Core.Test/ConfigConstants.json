@@ -1,0 +1,24 @@
+﻿{
+  "Caching": {
+    "Provider": "RedisCache",
+    "ExpireMinutes": 20
+  },
+  "Logger": {
+    "Type": "File",
+    "Level": "DEBUG",
+    "ProjectName": "Lind.DDD"
+  },
+  "MongoDB": {
+    "Host": "localhost:27017",
+    "DbName": "Test",
+    "UserName": "",
+    "Password": ""
+  },
+  "Redis": {
+    "Host": "localhost:6379",
+    "Proxy": 0,
+    "IsSentinel": 0,
+    "ServiceName": null,
+    "AuthPassword": null
+  }
+}

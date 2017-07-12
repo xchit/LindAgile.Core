@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using Dapper.Contrib.Extensions;
-namespace Pilipa.Core.IRepositories
+namespace LindAgile.Core.IRepositories
 {
     /// <summary>
     /// 使用Dapper实现的仓储

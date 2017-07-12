@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
-namespace Pilipa.Core.Specification
+namespace LindAgile.Core.Specification
 {
     /// <summary>
     /// NotEspecification convert a original

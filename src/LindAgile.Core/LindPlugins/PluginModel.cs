@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.LindPlugins
+namespace LindAgile.Core.LindPlugins
 {
     /// <summary>
     /// 插件模型

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Logger
+namespace LindAgile.Core.Logger
 {
     /// <summary>
     /// 日志功能接口规范

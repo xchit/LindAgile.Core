@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Pilipa.Core.GlobalConfig;
+using LindAgile.Core.GlobalConfig;
 using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Loader;
-using Pilipa.Core.Utils;
+using LindAgile.Core.Utils;
 using System.Reflection;
 
-namespace Pilipa.Core.ServiceBus
+namespace LindAgile.Core.ServiceBus
 {
     internal class RedisBus : IBus
     {

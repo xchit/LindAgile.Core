@@ -1,13 +1,13 @@
 ﻿using Autofac;
 using Autofac.Core;
-using Pilipa.Core.Modules;
+using LindAgile.Core.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Adapter
+namespace LindAgile.Core.Adapter
 {
     /// <summary>
     /// autofac的失陪器

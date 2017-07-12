@@ -1,4 +1,4 @@
-﻿namespace Pilipa.Core.Specification
+﻿namespace LindAgile.Core.Specification
 {
     /// <summary>
     /// Base class for composite specifications

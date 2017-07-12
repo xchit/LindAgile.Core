@@ -1,5 +1,5 @@
-﻿using Pilipa.Core.Domain;
-using Pilipa.Core.Logger;
+﻿using LindAgile.Core.Domain;
+using LindAgile.Core.Logger;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.IRepositories
+namespace LindAgile.Core.IRepositories
 {
     /// <summary>
     /// 沙箱数据库

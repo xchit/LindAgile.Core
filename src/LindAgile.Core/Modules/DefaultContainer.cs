@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Modules
+namespace LindAgile.Core.Modules
 {
     /// <summary>
     /// 默认的容器

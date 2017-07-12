@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.DTO
+namespace LindAgile.Core.DTO
 {
     /// <summary>
     /// 请求体基类

@@ -7,6 +7,7 @@
     "win10-x64": {}
   },
   "dependencies": {
+    "LindAgile.Core": "1.0.0-*",
     "Microsoft.NETCore.App": "1.1.2"
   },
 

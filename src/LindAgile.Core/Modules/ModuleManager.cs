@@ -1,12 +1,12 @@
 ﻿using Autofac;
-using Pilipa.Core.Logger;
+using LindAgile.Core.Logger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pilipa.Core.Modules
+namespace LindAgile.Core.Modules
 {
     /// <summary>
     /// 设计一个模块化注册机制
